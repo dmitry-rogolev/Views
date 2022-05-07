@@ -1,0 +1,66 @@
+html {
+    font-size: 12px;
+    cursor: default;
+}
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+ol {
+    list-style-position: inside;
+}
+
+.max-width-lg {
+    max-width: 992px;
+}
+.bg-green {
+    background-color: #008040;
+}
+.bg-red {
+    background-color: #C60304;
+}
+.bg-orange {
+    background-color: #FF8040;
+}
+.bg-brown {
+    background-color: #912F00;
+}
+.marker-red::marker {
+    color: red;
+}
+.marker-red li::marker {
+    color: red;
+}
+.font-size-1-3 {
+    font-size: 1.3rem;
+}
+
+@media (min-width: 0px)
+{
+    html {
+        font-size: 16px;
+    }
+}
+@media (min-width: 576px)
+{
+    html {
+        font-size: 16px;
+    }
+}
+@media (min-width: 768px)
+{
+    html {
+        font-size: 14px;
+    }
+}
+@media (min-width: 992px)
+{
+    html {
+        font-size: 12px;
+    }
+}
+@media (min-width: 1200px)
+{
+    html {
+        font-size: 12px;
+    }
+}
