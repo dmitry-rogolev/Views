@@ -1,0 +1,59 @@
+html {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+    cursor: default;
+}
+
+.background-header {
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.background-albugo {
+    background-color: rgba(0, 0, 0, 0.521);
+}
+
+
+.max-width-lg {
+    max-width: 992px;
+}
+.height-100 {
+    height: 100%;
+}
+
+@media (min-width: 0px)
+{
+    html {
+        font-size: 18px;
+    }
+    aside {
+        font-size: 18px;
+    }
+}
+@media (min-width: 576px)
+{
+
+}
+@media (min-width: 768px)
+{
+    html {
+        font-size: 16px;
+    }
+    aside {
+        font-size: 14px;
+    }
+}
+@media (min-width: 992px)
+{
+    html {
+        font-size: 14px;
+    }
+    aside {
+        font-size: 12px;
+    }
+}
+@media (min-width: 1200px)
+{
+
+}
