@@ -1,0 +1,12 @@
+.text-brown {
+    color: var(--brown);
+}
+.text-brown-light {
+    color: var(--brown-light);
+}
+.text-brown-dark {
+    color: var(--brown-dark);
+}
+.text-red-dark {
+    color: var(--red-dark);
+}

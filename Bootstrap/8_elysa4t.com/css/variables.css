@@ -1,0 +1,96 @@
+:root {
+
+    /* Цвета */
+    --brown-light:  #784F45;
+    --brown:        #4E2B22;
+    --brown-dark:   #371E18;
+    --black:        #000000;
+    --red-dark:     #881D1D;
+
+    /* Размер текста */
+    --font-size-xs: 18px;
+    --font-size-sm: 17px;
+    --font-size-md: 16px;
+    --font-size-lg: 15px;
+    --font-size-xl: 14px;
+
+    --small: calc(var(--spacer) * .9);
+
+    /* Шрифты */
+    --font-family-default:  "Ubuntu", var(--font-family-sans-serif);
+    --font-family:          "Arvo", cursive, var(--font-family-default);
+    --font-family-cursive:  "Cookie", cursive, var(--font-family-default);
+
+    /* Фоны */
+    --img-bg-header:            url("images/backgrounds/header.png");
+    --img-bg-logo:              url("images/backgrounds/logo.png");
+    --img-bg-banner:            url("images/backgrounds/banner.png");
+    --img-bg-banner-caption:    url("images/backgrounds/banner-caption.png");
+    --img-bg-main:              url("images/backgrounds/main.png");
+    --img-bg-posted:            url("images/backgrounds/posted.png");
+    --img-bg-flag:              url("images/backgrounds/flag.png");
+    --img-bg-aside:             url("images/backgrounds/aside-top.png"), 
+                                url("images/backgrounds/aside-bottom.png"), 
+                                url("images/backgrounds/aside.png");
+    --img-bg-footer-up:         url("images/backgrounds/footer-up-top.png"), 
+                                url("images/backgrounds/footer-up.png");
+    --img-bg-footer-down:       url("images/backgrounds/footer-down.png");
+    --img-banner:               url("images/banner.jpg");
+
+    /* Размеры */
+    --max-width-xs: var(--breakpoint-xs);
+    --max-width-sm: var(--breakpoint-sm);
+    --max-width-md: var(--breakpoint-md);
+    --max-width-lg: var(--breakpoint-lg);
+    --max-width-xl: var(--breakpoint-xl);
+
+    --min-width-xs: var(--breakpoint-xs);
+    --min-width-sm: var(--breakpoint-sm);
+    --min-width-md: var(--breakpoint-md);
+    --min-width-lg: var(--breakpoint-lg);
+    --min-width-xl: var(--breakpoint-xl);
+
+    --max-width: calc(var(--max-width-xl) - 14vw);
+
+    --spacer: 1rem;
+    
+    --spacer-0: 0;
+    --spacer-1: calc(var(--spacer) * .25);
+    --spacer-2: calc(var(--spacer) * .5);
+    --spacer-3: var(--spacer);
+    --spacer-4: calc(var(--spacer) * 1.5);
+    --spacer-5: calc(var(--spacer) * 3);
+
+    --border-radius-0: var(--spacer-0);
+    --border-radius-1: var(--spacer-1);
+    --border-radius-2: var(--spacer-2);
+    --border-radius-3: var(--spacer-3);
+    --border-radius-4: var(--spacer-4);
+    --border-radius-5: var(--spacer-5);
+
+    /* <html> */
+    --user-select:  none;
+    --cursor:       default;
+
+    /* <header> */
+    --header-height: 187px;
+
+    /* Лого */
+    --logo-font-size:   60px;
+    --logo-width:       220px;
+
+    /* Баннер */
+    --banner-height:    278px;
+    --banner-width:     100%;
+
+    /* .meta */
+    --meta-bg: #f4e4e3;
+    --meta-shadow: inset 0 0 5px #d4bfbe;
+
+    /* <footer> */
+    --footer-down-height: 155px;
+
+    /* ticket */
+    --ticket-bg: #371e185b;
+    --ticket-shadow: inset 0 0 10px var(--brown-dark);
+}

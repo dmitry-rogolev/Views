@@ -1,0 +1,62 @@
+.max-w-xs {
+    max-width: var(--max-width-xs) !important;
+}
+.max-w-sm {
+    max-width: var(--max-width-sm) !important;
+}
+.max-w-md {
+    max-width: var(--max-width-md) !important;
+}
+.max-w-lg {
+    max-width: var(--max-width-lg) !important;
+}
+.max-w-xl {
+    max-width: var(--max-width-xl) !important;
+}
+
+.min-w-xs {
+    min-width: var(--min-width-xs) !important;
+}
+.min-w-sm {
+    min-width: var(--min-width-sm) !important;
+}
+.min-w-md {
+    min-width: var(--min-width-md) !important;
+}
+.min-w-lg {
+    min-width: var(--min-width-lg) !important;
+}
+.min-w-xl {
+    min-width: var(--min-width-xl) !important;
+}
+
+@media (min-width: 0px)
+{
+    html {
+        font-size: var(--font-size-xs) !important;
+    }
+}
+@media (min-width: 576px)
+{
+    html {
+        font-size: var(--font-size-sm) !important;
+    }
+}
+@media (min-width: 768px)
+{
+    html {
+        font-size: var(--font-size-md) !important;
+    }
+}
+@media (min-width: 992px)
+{
+    html {
+        font-size: var(--font-size-lg) !important;
+    }
+}
+@media (min-width: 1200px)
+{
+    html {
+        font-size: var(--font-size-xl) !important;
+    }
+}
