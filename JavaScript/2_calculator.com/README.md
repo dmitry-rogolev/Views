@@ -1,6 +1,6 @@
-# pchela.com
+# calculator.com
 
-**pchela.com** &mdash; шаблон на HTML, CSS, Bootstrap и JavaScript, предназначенный для отработки навыков верстки.
+**calculator.com** &mdash; шаблон на HTML, CSS, Bootstrap и JavaScript, предназначенный для отработки навыков верстки.
 
 ---
 

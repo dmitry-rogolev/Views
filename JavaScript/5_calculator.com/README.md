@@ -6,10 +6,10 @@
 
 ## Цель
 
-1. Разработать калькулятор, находящий площадь круга и длину окружности. 
+1. Разработать калькулятор, находящий площадь треугольника по трем сторонам.
 
-    Ссылка на задание (Задача 3): 
-    http://code.mu/ru/javascript/book/practice/figures-calculators/
+    Ссылка на задание (Задача 1): 
+    http://code.mu/ru/javascript/book/practice/math-calculators/
 
 ---
 
