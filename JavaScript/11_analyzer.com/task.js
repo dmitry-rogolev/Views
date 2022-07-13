@@ -16,7 +16,7 @@
 
         var text = textarea.value;
 
-        answer.appendChild(document.createTextNode(text.split(" ").length))
+        answer.appendChild(document.createTextNode(text.split(" ").length));
 
     });
 
