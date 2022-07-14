@@ -1,0 +1,21 @@
+html {
+    font-size: 14px;
+    cursor: default;
+    height: 100%;
+}
+body {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.bg-gray-light {
+    background-color: lightgray;
+}
+.bg-gray-light-hover:hover {
+    background-color: lightgray;
+}
+.cursor-pointer {
+    cursor: pointer !important;
+}
+.cursor-defaulr {
+    cursor: default !important;
+}
